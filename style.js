@@ -91,3 +91,51 @@
 // // Example usage:
 // let numbersArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // console.log(filterEvenNumbers(numbersArray));
+
+
+
+
+
+
+
+//////////////////   Task 3: Object and Methods////////////////
+//3.1 Define an object `person` with properties `name`, `age`, and `city`. Write a function `displayPersonInfo` that prints the information in a readable format.
+////  `ad`, `yaş` və `şəhər` xassələri olan `şəxs` obyektini təyin edin. Məlumatı oxuna bilən formatda çap edən `displayPersonInfo` funksiyasını yazın.
+
+// let person = {
+//     name: "John",
+//     age: 25,
+//     city: "New York"
+// };
+
+
+// function displayPersonInfo() {
+//     console.log(`Name: ${person.name}, Age: ${person.age}, City: ${person.city}`);
+// }
+
+
+// displayPersonInfo();
+
+
+/////3.2 Extend the `person` object by adding a method `haveBirthday` that increments the age by 1 each time it's called.
+//////// Hər dəfə çağırılanda yaşı 1 artıran `haveBirthday` metodu əlavə edərək `şəxs` obyektini genişləndirin.
+
+
+// let person = {
+
+//     age: 25,
+// };
+
+// function displayPersonInfo() {
+//     console.log(`Age: ${person.age}`);
+// }
+
+
+// person.haveBirthday = function () {
+//     this.age += 1;
+// };
+
+// // Test the method
+// person.haveBirthday();
+// displayPersonInfo();
+
